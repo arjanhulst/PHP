@@ -1,0 +1,23 @@
+#src/Arjan/DemoBundle/Resources/config/doctrine/Employee.orm.yml
+Arjan\DemoBundle\Entity\Employee:
+    type: entity
+    table: employee
+    id:
+        employeeId:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        firstName:
+            type: string
+            length: 100
+        lastName:
+            type: string
+            length: 100
+        dateOfBirth:
+            type: date
+        function:
+            type: string
+            length: 100
+        address:
+            type: string
+            length: 255
