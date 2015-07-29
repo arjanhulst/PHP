@@ -2,7 +2,7 @@
 Zie AapNoot.php
 
 # Vraag 2: Database
-Zie upsert.sql, ter referentie zijn er 3 andere SQL files met de tabellen award, member en memberAward
+Zie upsert.sql, ter referentie zijn er 3 Navicat exports met de tabellen award, member en memberAward
 
 # Vraag 3: Infrastructuur
 Een Linux webserver die apache of nginx draait (of eventueel docker images) in combinatie met een gescheiden database server (MySQL). Eventueel zou er nog gekozen kunnen worden voor een "static" server welke de CSS, images en javascript serveert.
